@@ -1,0 +1,20 @@
+.non-modal-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e98282;
+    border: 1px solid #090000;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(159, 177, 17, 0.26);
+    z-index: 100;
+  }
+  
+  .non-modal-window h2 {
+    margin-top: 0;
+  }
+  
+  .non-modal-window p {
+    margin-bottom: 16px;
+  }
+  
